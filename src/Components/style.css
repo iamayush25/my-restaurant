@@ -1,0 +1,156 @@
+/* #invoice {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border: 2px solid black;
+} 
+
+#inner1 {
+  border: 2px solid black;
+  width: 40vw;
+  height: 75vh;
+  margin-top: 1%;
+  margin-left: 2vw;
+  padding-left: 10vw;
+  background-color: #d57d1f;
+
+}
+
+.th,
+.td {
+    width: 14vw;
+    height: 5vh;
+    border: 2px solid #d57d1f;
+    text-align: center;
+}
+
+
+.h1 {
+  border: 1px solid green;
+} */
+
+
+.main {
+  background-image: url(backgroundImg.jpg);
+  border: 2px solid black;
+  width: 99.8vw;
+  height: 98vh;
+  background-size: cover;
+}
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0.327);
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  /* border: 2px solid black; */
+  width: 30em;
+  display: flex;
+  justify-content: center;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* border: 2px solid black; */
+  width: 40%;
+  font-size: 1.6em;
+  
+}
+
+.a {
+  color: black;
+  text-decoration: none;
+}
+
+.a:hover
+{
+  color: rgb(94, 94, 168);
+}
+#inputOptions {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+
+}
+
+#main2  {
+  display: flex;
+  justify-content: center;
+  height: 5em;
+
+}
+
+#input {
+  width: 22em;
+  height: 3em;
+  border-radius: 25px 0px 0px 25px;
+  margin-right: -2em;
+  background-color: rgba(255, 255, 255, 0.104);
+  font-size: larger;
+
+
+}
+
+#select {
+  width: 20em;
+  height: 4em;
+  margin-right: -3.6em;
+  background-color: rgba(255, 255, 255, 0.104);
+
+
+}
+
+#searchBtn{
+  width: 10em;
+  height: 4em;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.104);
+
+}
+
+
+
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+#displayFood {
+  border: 2px solid black;
+  height: 22em;
+  
+}
+
+.image {
+  width: 20em;
+  height: 20em;
+}
+
+
+
+#imgs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.foodImg {
+  height: 27%;
+  width: 15%;
+  border-radius: 50%;
+}
+
+
+
+
+
+
