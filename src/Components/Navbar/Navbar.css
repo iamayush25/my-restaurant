@@ -1,0 +1,49 @@
+.navbar {
+    padding: 0.5rem 1rem;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.Logo {
+    height: 60px; 
+}
+
+.nav-link {
+    padding: 0.5rem 1rem;
+}
+
+.search-section {
+    margin: 0 1rem;
+    flex-grow: 1;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+}
+
+.form-select, .btn {
+    margin-left: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .search-section {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
