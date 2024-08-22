@@ -1,0 +1,40 @@
+#footer-icon{
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  background-color: rgb(217, 47, 47);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-container{
+  background-color: rgba(6, 1, 37, 0.839);
+}
+
+input{
+  background-color: white;
+}
+
+.icon{
+  color: #c63131;
+}
+
+.FollowMe {
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+}
+
+.FollowMe:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
