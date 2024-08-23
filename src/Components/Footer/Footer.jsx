@@ -7,7 +7,7 @@ function Footer() {
     <div className='bg-dark text-white'>
       <div className="container">
         <footer className="justify-content-center align-items-center row row-cols-1 row-cols-sm-2 row-cols-md-4 py-2 my-2">
-          <div className="container-fluid text-white" style={{ display: 'flex' }}>
+          <div className="text-white" style={{ display: 'flex' }}>
             <p className="text-center py-2" style={{ display: 'inline' }}>
               <h2 style={{fontFamily: 'Georgia, serif', fontWeight: 'bold', fontSize: '1.5rem', color: 'red'}} >S3 Restaurant</h2>
               All content in this WebSite <br /> ©Ayush Sharma <br /> is protected by copyright;
