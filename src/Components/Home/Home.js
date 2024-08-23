@@ -10,6 +10,7 @@ import Cake from "../Images/Party_Brownies.jpg";
 import Salad from "../Images/Making-Peach-Salad.jpg";
 import Footer from "../Footer/Footer";
 import AboutMe from "../About/About";
+import ContactPage from "../ContactUs/ContactUs";
 
 function Home() {
   const ItemDetails = () => (
@@ -23,8 +24,13 @@ function Home() {
           >
             Rajasthani Thali
           </h1>
-          <p className="lead" style={{textAlign : "justify"}}>
-          Housing the Thar Desert, Rajasthan is an arid state with extreme climates and less vegetation. But it’s cuisine stands as a testament that the human love for food can surpass all barriers to create unique, rich and delicious dishes. We were blown away by the method of preparation, the ingredients, the depth and the taste of this thali. 
+          <p className="lead" style={{ textAlign: "justify" }}>
+            Housing the Thar Desert, Rajasthan is an arid state with extreme
+            climates and less vegetation. But it’s cuisine stands as a testament
+            that the human love for food can surpass all barriers to create
+            unique, rich and delicious dishes. We were blown away by the method
+            of preparation, the ingredients, the depth and the taste of this
+            thali.
           </p>
         </div>
         <div className="col-md-5">
@@ -46,7 +52,7 @@ function Home() {
           >
             Party Brownies
           </h1>
-          <p className="lead" style={{textAlign : "justify"}}>
+          <p className="lead" style={{ textAlign: "justify" }}>
             Brownies covered with a thick layer of fudge frosting and rainbow
             sprinkles. The best way to jazz up a box of brownie mix!
           </p>
@@ -64,11 +70,13 @@ function Home() {
       <hr className="featurette-divider" />
       <div className="row featurette">
         <div className="col-md-7">
-          <h2 className="featurette-heading fw-normal lh-1 mb-5"
-            style={{ color: "#FF6633" }}>
+          <h2
+            className="featurette-heading fw-normal lh-1 mb-5"
+            style={{ color: "#FF6633" }}
+          >
             Spicy Shrimp with Peach Salad.
           </h2>
-          <p className="lead" style={{textAlign : "justify"}}>
+          <p className="lead" style={{ textAlign: "justify" }}>
             This is summertime in a bowl! Spicy shrimp with all the delicious
             heat, smoke, and sweetness we want, alongside a fresh peach and
             cucumber salad.
@@ -164,9 +172,10 @@ function Home() {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
-      <AboutMe/>
+      <AboutMe />
       <ItemDetails />
-      <Footer/>
+      <ContactPage />
+      <Footer />
     </div>
   );
 }

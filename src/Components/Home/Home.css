@@ -1,6 +1,5 @@
 .main {
   font-family: 'Arial', sans-serif;
-  margin-top: 6.5%;
   
 }
 
@@ -15,9 +14,6 @@
   font-weight: bold;
 }
 
-.search-section {
-  margin-top: 30px;
-}
 
 .carousel-item img {
   height: 70vh;
