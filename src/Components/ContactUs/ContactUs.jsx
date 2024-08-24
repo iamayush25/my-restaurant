@@ -27,7 +27,7 @@ const ContactPage = () => {
                                     <td>
                                         <strong>Email:</strong>
                                     </td>
-                                    <td>ayush22@navgurukul.org</td>
+                                    <td> <a href="mailto:example@example.com" style={{color : "black" , textDecoration : "none"}}>ayush22@navgurukul.org</a></td>
                                 </tr>
                             </tbody>
                         </table>

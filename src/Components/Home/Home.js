@@ -20,11 +20,11 @@ function Home() {
         <div className="col-md-7">
           <h1
             className="featurette-heading fw-normal lh-1 mb-5"
-            style={{ color: "#FF6633" }}
+            style={{ color: "#FF6633"  , fontFamily : "Crimson Text" }}
           >
             Rajasthani Thali
           </h1>
-          <p className="lead" style={{ textAlign: "justify" }}>
+          <p className="lead" style={{ textAlign: "justify"  , fontFamily : "Crimson Text"}}>
             Housing the Thar Desert, Rajasthan is an arid state with extreme
             climates and less vegetation. But it’s cuisine stands as a testament
             that the human love for food can surpass all barriers to create
@@ -48,11 +48,11 @@ function Home() {
         <div className="col-md-7 order-md-2">
           <h1
             className="featurette-heading fw-normal lh-1 mb-5"
-            style={{ color: "#FF6633" }}
+            style={{ color: "#FF6633"  , fontFamily : "Crimson Text" }}
           >
             Party Brownies
           </h1>
-          <p className="lead" style={{ textAlign: "justify" }}>
+          <p className="lead" style={{ textAlign: "justify" , fontFamily : "Crimson Text" }}>
             Brownies covered with a thick layer of fudge frosting and rainbow
             sprinkles. The best way to jazz up a box of brownie mix!
           </p>
@@ -72,11 +72,11 @@ function Home() {
         <div className="col-md-7">
           <h2
             className="featurette-heading fw-normal lh-1 mb-5"
-            style={{ color: "#FF6633" }}
+            style={{ color: "#FF6633"  , fontFamily : "Crimson Text" }}
           >
             Spicy Shrimp with Peach Salad.
           </h2>
-          <p className="lead" style={{ textAlign: "justify" }}>
+          <p className="lead" style={{ textAlign: "justify"  , fontFamily : "Crimson Text"}}>
             This is summertime in a bowl! Spicy shrimp with all the delicious
             heat, smoke, and sweetness we want, alongside a fresh peach and
             cucumber salad.
@@ -172,9 +172,7 @@ function Home() {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
-      <AboutMe />
       <ItemDetails />
-      <ContactPage />
       <Footer />
     </div>
   );
