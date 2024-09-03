@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-// import './style.css'
 
 const SearchItem = () => {
   const [Data, setData] = useState([]);

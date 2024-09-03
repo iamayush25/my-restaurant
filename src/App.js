@@ -10,7 +10,7 @@ import DisplayItems from "./Components/DisplayItems/DisplayItems";
 function App() {
   return (
     <Router>
-      <Navbar /> {/* Navbar should be inside the Router */}
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<ContactPage />} />

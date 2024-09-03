@@ -13,7 +13,7 @@ const Navbar = () => {
     const [price] = useState(120);
     const [selectedCategory, setSelectedCategory] = useState('');
 
-    const navigate = useNavigate(); // Correct use of useNavigate
+    const navigate = useNavigate();
 
     useEffect(() => {
         const fetchData = async () => {
