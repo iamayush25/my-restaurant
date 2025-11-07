@@ -15,7 +15,6 @@ const SearchItem = () => {
       console.log(result);
       setData(result);
 
-
     };
   });
 };
