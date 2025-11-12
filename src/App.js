@@ -7,7 +7,6 @@ import AboutMe from "./Components/About/About";
 import ContactPage from "./Components/ContactUs/ContactUs";
 import DisplayItems from "./Components/DisplayItems/DisplayItems";
 
-
 function App() {
   return (
     <Router>
